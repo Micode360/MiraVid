@@ -6,7 +6,9 @@ export default function Home () {
   
   return (
     <div>
-           body Content
+          <div>
+
+          </div>
     </div>
   )
 }

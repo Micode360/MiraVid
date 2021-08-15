@@ -1,0 +1,46 @@
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justBetween {
+    justify-content: space-between;
+}
+
+.alignBetween {
+    align-content: space-between;
+}
+
+
+.nav {
+    background-color: rgb(42, 96, 143);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+}

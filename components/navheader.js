@@ -1,21 +1,14 @@
 import Link from "next/link"
+import Image from "next/image"
+import style from '../styles/Home.module.scss'
 
 const Navheader = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
-                <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                             <Link className="nav-link" href="/"><a>Home</a></Link>
-                        </li>
-
-                        <li className="nav-item">
-                             <Link className="nav-link" href="/videos"><a>Videos</a></Link>
-                        </li>
-                    </ul>
-                </div>
+        <nav className={style.nav}>
+            <Image src="/logo.png" width={30} height={30} alt="logo"/>
+            <div>
+                <Link href="/video"><a>All video</a></Link>
             </div>
         </nav>
     );
